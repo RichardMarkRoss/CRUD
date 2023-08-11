@@ -1,17 +1,20 @@
 #CRUD
+
 This guide will walk you through setting up and running the CRUD API. Please follow these steps for a seamless experience:
 
 ##Prerequisites
+
 Make sure you have Visual Studio 2022 installed on your device.
 Ensure that Microsoft SQL Server (mssql) is set up and running on your machine.
 
 ##Getting Started
+
 Open Visual Studio 2022.
 Click on "Tools" in the top menu, then select "NuGet Package Manager" > "NuGet Package Console."
 
 In the Package Console, execute the following commands:
-Add-Migration Init
-Update-Database
+' Add-Migration Init '
+' Update-Database '
 
 These commands will prepare the database for the CRUD API.
 
