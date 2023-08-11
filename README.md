@@ -13,8 +13,8 @@ Open Visual Studio 2022.
 Click on "Tools" in the top menu, then select "NuGet Package Manager" > "NuGet Package Console."
 
 In the Package Console, execute the following commands:
-' Add-Migration Init '
-' Update-Database '
+``` Add-Migration Init ```
+``` Update-Database ```
 
 These commands will prepare the database for the CRUD API.
 
